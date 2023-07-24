@@ -1,0 +1,27 @@
+@use "../utils/variables" as var;
+.nav-btn{
+  color: #FFF;
+  width: 138px;
+ flex-shrink: 0;
+ background-color:var.$primary-color;
+border-radius: 100px;
+border: 1px solid #FFF;
+transition-duration: 0.3s ease-in;
+}
+#navbar{
+  transition-duration: 0.3s ease-in;
+}
+
+.nav-gap{
+  gap: 34px;
+}
+
+.navbar-shrink {
+  box-shadow: 0 7px 8px -1px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in;
+	padding: 12px 0 !important;
+}
+
+#navbar{
+  transition: 0.3s ease-in;
+}
